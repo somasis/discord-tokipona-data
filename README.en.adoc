@@ -1,0 +1,83 @@
+= discord-tokipona-data
+
+:lang: en-US
+:url-datamining: https://github.com/Discord-Datamining/Discord-Datamining/blob/master/current.js
+:url-discord-tokipona: https://github.com/somasis/discord-tokipona
+:url-sil: https://iso639-3.sil.org/request/2021-043
+:url-mapali: https://discord.gg/PrVVDEDanU
+
+xref:README.adoc[o lukin e lipu ni lon toki pona].
+
+A work-in-progress translation of Discord into Toki Pona.
+
+The original strings are currently gathered from strings present in Discord-Datamining’s
+{url-datamining}[current.js]. The strings used in this translation in `mama_pi_ante_toki.json`.
+The strings in `mama_pi_ante_toki.json` should be consistent in meaning with the ones in this
+translation; they will only be updated only when the translations are updated to match them.
+
+== Usage
+
+This data is to be used by other plugins which provide the actual code for injecting the
+translated strings into Discord's code.
+
+.Plugins which use this translation
+* {url-discord-tokipona}[discord-tokipona]: A plugin for Replugged.
+
+== Dialect and Phrasing Choices
+
+* Mentions are "toki wile".
+  Messages of desire, or desirious messages, because ultimately a mention is a message sent for
+  want of the person who is being mentioned.
+* Notifications are "kama toki".
+  They are things that bring about knowledge of message-arrivals to you.
+* Number representation.
+  This translation uses words for numbers 0 through 2, and any larger simply displaying
+  numeric amounts.
+    ** Time representation is a different story.
+       As of now, to keep the specific times and avoid obscuring information the client is giving
+       to the user, for seconds, minutes, and hours, tenpo ilo lili, tenpo ilo, and tenpo ilo suli
+       are used.
+       This way is works well enough without requiring people to learn a different time system,
+       or being unclear.
+* Non-pu words are kept as minimal as possible, for dialectical neutrality, as jan Sonja's dialect
+  as shown in _pu_ is essentially the lowest common denominator for speaking.
+    ** This is in part from me not wanting to do this only for the _ma pona pi toki pona_ Discord.
+       This plugin is for all people, be they in _ma pona_ or not.
+       A _pu_ dialect ensures that it does not get biased one way or the other.
+       _nimi ku suli_ are not used as well, as _ku_ was based entirely off of _ma pona pi toki pona_
+       surveying, thus it seems better to avoid it as since most of the words aren't crucial anyway.
+    ** "linja" is used for referring to connections and URLs, as its most common alternate meanings
+       are lines and connections.
+    ** I cannot make the same guarantee for the grammar choices; I studied for a while before
+       getting my hands on _lipu pu_, so I am probably not staying entirely true to its grammar
+       and preverbs.
+       If you have any patches to send in for making the dialect more pu-like (without making things
+       less clear, or long-winded), I welcome them.
+
+== Things left untranslated
+
+* Emojis.
+  I'm not sure how this would be changed but I don't really think it's worth the effort to try and
+  translate _every single emoji name and shortcode_ into Toki Pona right now.
+  That is a different project.
+* Names of connections. (ex. Battle.net, Facebook, GitHub)
+  Usually, these names can't be changed by official translations even, likely for trademark reasons.
+  Most occurences are not in the original English strings.
+
+== Known issues
+
+It would be nice to move the contributing process to something like https://crowdin.com/[Crowdin],
+https://weblate.org[Weblate] (used by Replugged and others, notably), or something like it.
+This would greatly reduce the barrier to entry for contributions from other users.
+
+== Contributing and acknowledgments
+
+Do you want to learn more about this plugin?
+{url-mapali}[Learn more on the _ma pali pi toki pona_ Discord server].
+We're in the `#ante-toki-pi-ilo-siko` channel, under the `pali ante` category.
+We talk about working on the translation in this channel.
+
+I am an intermediate speaker. Please submit changes to improve the translation!
+
+Thanks to https://github.com/cominixo/tokipona-discord[jan Komi] for the original work, which
+provided the basis for this project.

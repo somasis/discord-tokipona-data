@@ -1,0 +1,91 @@
+= ante toki pi ilo Siko
+
+:lang: tok
+:url-datamining: https://github.com/Discord-Datamining/Discord-Datamining/blob/master/current.js
+:url-discord-tokipona: https://github.com/somasis/discord-tokipona
+:url-sil: https://iso639-3.sil.org/request/2021-043
+:url-mapali: https://discord.gg/PrVVDEDanU
+
+xref:README.en.adoc[There's an English version of this README].
+
+ni li ante toki pi ilo Siko (Discord) tawa toki pona.
+
+toki mama lon poki ni li tan lipu {url-datamining}[current.js].
+lipu li tan kulupu pali Discord-Datamining.
+sina ken lukin e toki mama lon ante toki ni lon lipu `mama_pi_ante_toki.json`.
+nimi lon lipu `mama_pi_ante_toki.json` li wile kama sama kon pi ante toki ni;
+ante toki li kama jo e toki sin la, mi kama e sin tan toki mama tawa lipu `mama_pi_ante_toki.json`.
+
+== kepeken
+
+ante toki ni li tawa kepeken pi ilo ante.
+ilo pi ante toki li kepeken ante toki ni tawa pana e toki pona tawa ilo Siko.
+
+.namako ilo pi kepeken ni
+* {url-discord-tokipona}[discord-tokipona]: ona li tawa ilo Wipo (Replugged).
+
+== nasin toki mi
+
+* nimi "Mentions" (lon toki Inli) li nimi "toki wile".
+  toki ni li pana tan ni: jan pi pana toki li wile e jan.
+  tan ni la, mi pana e nimi "toki wile" tawa toki ni.
+* nimi "Notifications" (lon toki Inli) li nimi "kama toki".
+  ona li ijo ni: kama toki li kama e sona pi kama toki tawa sina.
+* nasin nanpa.
+  ante toki ni li kepeken nimi tawa nanpa 0 tawa 2.
+  nanpa ale ante li kepeken nanpa taso (nasin nanpa Alapi).
+    ** tenpo lukin li ante.
+       mi wile awen e tenpo nanpa e sona tan ilo Siko.
+       toki mi li kepeken nimi "seconds", kepeken nimi "minutes", kepeken nimi "hours", lon toki Inli.
+       nimi ni lon toki pona li tenpo ilo lili, li tenpo ilo, li tenpo ilo suli.
+       nasin ni la jan kepeken li wile ala sona e nasin tenpo sin.
+       nasin ni la kama sona pi toki ni li pona.
+* mute pi nimi tan pu ala li lili. tan ni la, ni li lon: nasin nimi li pona. kama sona pi nimi ni
+  li pona.
+  nasin toki pi jan Sonja li lon _lipu pu_, tan ni la, jan ale li sona e toki mi.
+    ** nasin ni li tan lili ni: mi wile ala pali e ni tawa ma pona pi toki pona taso.
+       namako ni li tawa jan ale, tawa jan lon ala ma pona, tawa jan ale lon ilo Siko.
+       nasin pu li awen e ni: nasin ni li wile ala e jan pi nasin wan.
+       nasin ni li wile e jan pi nasin ale.
+       _nimi ku suli_ li lon ala namako ni. sona pi nimi ni li tan ma pona pi toki pona la,
+       mi wile ala kepeken nimi ni. nimi ku suli li ike ala, taso la, lon pi nimi ni li suli ala.
+    ** nimi "linja" li toki e ni: ijo URL en nimi "connection" (lon toki Inli).
+       toki ni li lon ala _lipu pu_. tenpo pu la tan pi toki ni li tenpo pini.
+    ** mi ken ala pilin e sama tawa nasin toki. (nimi "grammar" lon toki Inli).
+       tenpo pini la mi jo ala e _lipu pu_ la, taso la mi kama sona e toki pona.
+       ken la nasin toki mi li pu ala, nasin pi toki pali open ("preverbs" lon toki Inli) li pu ala.
+       sina wile pona e ni la, mi wile e pona sina. o pana e pona tawa mi!
+
+== ijo pi ante ala
+
+* nimi pi sitelen lili (nimi "Emojis" lon toki Inli).
+  mi sona ala ante e nimi ni.
+  mi pilin e ni: mi wile ala pali e pali ni.
+  pali ni li wile e pali mute. ni li kiwen tawa mi.
+  mi pali e ni la mi ante lon toki pona e nimi pi sitelen lili ale, e nimi lili pi sitelen lili ale.
+  pali kulupu pi pali ni li ante.
+* nimi pi linja nasin.
+  tenpo mute la, ante toki tan kulupu mani Siko li ken ala ante e nimi ni.
+  nasin pi kulupu mani mute li wile ala e ante toki pi nimi ona.
+  mute suli pi nimi ni li lon ala nimi lon toki mama.
+
+== sona pi pakala lon
+
+mi wile ken e ni tan jan pi toki pona mute:
+jan ale li ken pana e sona sina pi toki pona tawa ante toki.
+mi wile e ni tan tenpo kama: pali pi ante toki li lon ilo pona pi ante toki.
+ken la ni li ilo https://crowdin.com/[Crowdin], anu ilo https://weblate.org[Weblate]
+(ilo ni la jan pali pi ilo Wipo (Replugged) li kepeken ilo ni), anu ilo ante.
+ni li kama la jan mute mute li ken pana pona e sona pi toki pona.
+
+== pana en jan pi pali pona
+
+mi toki pona lili.
+mi wile e ni: o pona e toki mi!
+
+sina wile kama sona e namako ni anu seme? {url-mapali}[o kama lon ma pali pi toki pona lon ilo Siko].
+mi lon tomo `#ante-toki-pi-ilo-siko`; tomo ni li lon insa pi kulupu `pali ante`.
+tomo ni la mi mute li toki pali pi ante toki.
+
+https://github.com/cominixo/tokipona-discord[jan Komi] o, sina pona tawa mama pali.
+pali sina li pana e ma pona tawa pali ni.
