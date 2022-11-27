@@ -1,19 +1,6 @@
 .DELETE_ON_ERROR:
 
-noop: FRC
-	@printf "%s\n" \
-	    "jan kepeken li wile ala kepeken ilo \"make\"." \
-	    "sina jan kepeken la, o lukin e lipu README."   \
-	    "sina jan pali la, o kepeken ilo \"make dev\"." \
-	    "[users don't need to run \"make\".]" \
-	    "[if you're a user, look at the README.]" \
-	    "[if you're a developer, use \"make dev\".]" \
-	    >&2
-
-manifest.json: manifest.sh index.js i18n/index.js i18n/timestamps.json i18n/tok.json
-	./manifest.sh > manifest.json
-
-dev: FRC manifest.json toki_mama_ale.json nimi_taso_lon_toki_ale.txt mama_pi_ante_toki.json mute
+dev: FRC toki_mama_ale.json nimi_taso_lon_toki_ale.txt mama_pi_ante_toki.json mute
 clean: FRC
 	rm -f toki_mama_ale.json nimi_taso_lon_toki_ale.txt mama_pi_ante_toki.json
 
